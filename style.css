@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: rgb(200, 255, 250);
+    box-sizing: border-box;
+}
+
+img {
+    width: 4vw;
+    height: 4vw;
+    border-radius: 50%;
+}
+
+table  {
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 4vw;
+    border-radius: 0.6em;
+    color: rgb(18, 129, 92);
+    background-color: #fff;
+}
+
+tr:nth-child(3) {
+    background-color: rgb(180, 240, 220);
+}
+
+tr:nth-child(5) {
+    background-color: rgb(180, 240, 220);
+}
+
+
+tr {
+    height: 9vh;
+}
+
+.pic {
+padding: 0 1vw;
+}
+
+.name {
+    padding: 0 2vw;
+}
+
+.email {
+    padding: 0 2vw;
+}
+
+.code {
+    padding: 0 1vw;
+    width: 9vw;
+}
+
+.lorem {
+    padding: 1vw;
+}
+
+.country {
+    background-color: rgb(41, 173, 140);
+    color: white;
+    font-weight: bold;
+    font-size: 1.7vw;
+    border-top-left-radius: 0.6em;
+    border-top-right-radius: 0.6em;
+}
